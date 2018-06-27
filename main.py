@@ -62,7 +62,7 @@ def displayInfo(content):
                                         ' Berth No., Quota)', '*Current Status'
                                         ' (Coach No , Berth No.)'])
     print(msg)
-    print(table)
+    print('{}\n'.format(table))
     print(passenger_table)
     
 
