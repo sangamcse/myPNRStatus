@@ -1,7 +1,19 @@
 # myPNRStatus
 A script in python3 to check PNR status on your terminal
 
+## Installation
+
+This script uses `requests` which requires python 3.6 or higher runtime.
 ```
+pip3 install -r requirements.txt
+```
+
+## Usage
+
+### As script
+
+```
+bash$ python3 main.py
 Enter your PNR: 8606850987
 
 *** You Queried For : PNR Number: 8606850987 ***
@@ -20,4 +32,4 @@ Charting Status: No	No. of Passengers: 1
 
 - [x] Test with waiting tickets for single passenger.
 - [x] Test with waiting tickets for multi-passenger.
-- [ ] Test with confirmed tickets.
+- [x] Test with confirmed tickets.
